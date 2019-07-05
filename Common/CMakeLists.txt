@@ -1,0 +1,22 @@
+ADD_LIBRARY ( common STATIC
+  camera.cpp
+  cubemap_texture.cpp
+  FreetypeGL/font_shader.cpp
+  FreetypeGL/freetypeGL.cpp
+  glut_backend.cpp
+  io_buffer.cpp
+  math_3d.cpp
+  ogldev_app.cpp
+  ogldev_atb.cpp
+  ogldev_backend.cpp
+  ogldev_basic_lighting.cpp
+  ogldev_basic_mesh.cpp
+  ogldev_glfw_backend.cpp
+  ogldev_shadow_map_fbo.cpp
+  ogldev_skinned_mesh.cpp
+  ogldev_texture.cpp
+  ogldev_util.cpp
+  pipeline.cpp
+  random_texture.cpp
+  technique.cpp
+  )
